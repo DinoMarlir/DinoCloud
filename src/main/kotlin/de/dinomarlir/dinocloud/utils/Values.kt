@@ -20,3 +20,4 @@ val httpClient = HttpClient {
 }
 
 val scope = CoroutineScope(Dispatchers.IO)
+val syncScope = CoroutineScope(Dispatchers.Default)

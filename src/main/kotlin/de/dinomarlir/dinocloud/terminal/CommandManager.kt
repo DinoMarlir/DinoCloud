@@ -4,7 +4,9 @@ package de.dinomarlir.dinocloud.terminal
 import com.github.ajalt.mordant.rendering.TextColors.*
 import de.dinomarlir.dinocloud.terminal.implementation.HelpCommand
 import de.dinomarlir.dinocloud.terminal.implementation.InfoCommand
+import de.dinomarlir.dinocloud.utils.scope
 import de.dinomarlir.dinocloud.version
+import kotlinx.coroutines.launch
 import java.io.BufferedReader
 import java.io.InputStreamReader
 import kotlin.system.exitProcess
